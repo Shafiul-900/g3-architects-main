@@ -52,6 +52,9 @@ nav {
     align-items: center;
     padding-top: 50px;
 }
+nav .fa-bars{
+    display: none;
+}
 
 .nav-list li {
     display: inline;
@@ -102,3 +105,35 @@ nav ul li a:hover {
 .header-banner{
     padding-bottom: 50px;
 }
+ /* header area style end       */
+
+@media only screen and (max-width: 600px) {  
+    /* header area responsiv */   
+     h2 {
+        font-size: 20px;
+    }
+    header {
+        padding: 0 30px;
+    }
+    .brand-new > div {
+        padding: 40px 0 50px 0;
+    }
+    nav {
+        padding-top: 10px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .header-title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .header-title br{
+        display: none;
+    } 
+    .header-sub-title br{
+       display: none;
+    }
+}
+ /* header area responsiv end */
+    
