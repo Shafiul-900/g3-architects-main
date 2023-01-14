@@ -1,0 +1,55 @@
+/* stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&display=swap');
+
+/* multiple style  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header area style  */
+header {
+    max-width: 1440px;
+    padding: 0 140px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+/* nav style start  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-list li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav-title {
+    color: #131313;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+nav ul li a:hover{
+    color: #FF900E;
+    transition: 0.4s;
+}
